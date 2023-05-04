@@ -22,6 +22,11 @@ router
     .put(updateThought)
     .delete(deleteThought);
 
+// api/thoughts/:thoughtId/reactons
+router
+    .route('/:thoughtId/reactions')
+    .post(createReaction);
+
 // api/thoughts/:thoughtId/reactions/:reactionId
 router
     .route('/:thoughtId/reactions/:reactionId')

@@ -117,7 +117,7 @@ module.exports = {
             { $pull: { reactions: { reactionId: req.params.reactionId } } },
             { runValidators: true, new: true }
         )
-            .then((thoughts) => 
+            .then((thought) => 
                 !thought
                     ? res.status(404).json({ message: 'No thought with this id' })
                     : res.json({
