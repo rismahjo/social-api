@@ -16,6 +16,10 @@ An API created for a social network application where users can share thoughts, 
 
 ## Demonstration
 
+
+https://user-images.githubusercontent.com/113956697/236369817-d070d878-3b6a-446c-8377-c7d97001c7ab.mp4
+
+
 ## Installation
 
 You will need `NodeJS` and `MongoDB`, as well as the required modules in the `package.json`.
